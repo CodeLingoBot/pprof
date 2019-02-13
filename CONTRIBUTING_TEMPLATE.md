@@ -75,3 +75,11 @@ ones, so make sure your submissions are high quality.
 Contributions made by corporations are covered by a different agreement than the
 one above, the [Software Grant and Corporate Contributor License
 Agreement](https://cla.developers.google.com/about/google-corporate).
+
+## Code Review Comments and Effective Go Guidelines
+[CodeLingo](https://codelingo.io) automatically checks every pull request against the following guidelines from [Effective Go](https://golang.org/doc/effective_go.html).
+
+{{range .}}
+## {{.title}}
+{{.body}}
+{{end}}
